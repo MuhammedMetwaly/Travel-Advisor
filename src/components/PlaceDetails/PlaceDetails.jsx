@@ -59,7 +59,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
             alignItems="center"
           >
             <img src={award.images.small} alt={award.display_name} />
-            <Typography variant="subtitle3" color="textSecondary">
+            <Typography variant="subtitle2" color="textSecondary">
               {award.display_name}
             </Typography>
           </Box>
@@ -73,7 +73,7 @@ const PlaceDetails = ({ place, selected, refProp }) => {
           <Typography
             className={classes.subtitle}
             gutterBottom
-            variant="subtitle3"
+            variant="subtitle2"
             color="textSecondary"
           >
             <LocationOn /> {place.address}
